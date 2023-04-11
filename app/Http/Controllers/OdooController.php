@@ -9,10 +9,10 @@ class OdooController extends Controller
 {
     public function index()
     {
-        $url = 'https://test958.odoo.com/';
-        $db = 'test958';
-        $username = 'bgmaduragoda@gmail.com';
-        $password = 'bgm990714';
+        $url = 'https://dbName.odoo.com/';
+        $db = 'dbName';
+        $username = 'user@gmail.com';
+        $password = 'pw';
 
         // Connect to the Odoo server
         $common = Ripcord::client($url . 'xmlrpc/2/common');
@@ -39,10 +39,10 @@ class OdooController extends Controller
     }
 
     public function store(Request $request){
-        $url = 'https://test958.odoo.com/';
-        $db = 'test958';
-        $username = 'bgmaduragoda@gmail.com';
-        $password = 'bgm990714';
+        $url = 'https://dbName.odoo.com/';
+        $db = 'dbName';
+        $username = 'user@gmail.com';
+        $password = 'pw';
 
         // Connect to the Odoo server
         $common = Ripcord::client($url . 'xmlrpc/2/common');
